@@ -10,7 +10,7 @@ ShrubberyCreationForm ::ShrubberyCreationForm(const std::string target1):AForm("
 }
 ShrubberyCreationForm ::ShrubberyCreationForm(const ShrubberyCreationForm &src):AForm(src)
 {
-    *this = src;
+    this->target = src.target;
 }
 ShrubberyCreationForm &ShrubberyCreationForm ::operator=(const ShrubberyCreationForm &src)
 {

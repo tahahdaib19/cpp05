@@ -69,7 +69,7 @@ std::ostream& operator <<(std::ostream& out ,const Bureaucrat& obj)
     out <<"bureaucrat name: "<< obj.get_name() << ", bureaucrat grade " << obj.get_grade() << std::endl;
     return out;
 }
-void Bureaucrat::signForm(Form &f)
+void Bureaucrat::signForm(AForm &f)
 {
     try
     {

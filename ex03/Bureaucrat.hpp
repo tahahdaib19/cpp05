@@ -4,7 +4,7 @@
 #include <iostream>
 #include <string>
 #include <exception>
-#include "Form.hpp"
+#include "AForm.hpp"
 
 
 
@@ -36,7 +36,7 @@ int get_grade() const;
 std::string get_name() const;
 void increment_grade();
 void decrement_grade();
-void signForm( Form &f);
+void signForm( AForm &f);
 void executeForm(AForm const & form) const;
 };
 std::ostream& operator<<(std::ostream& out , const Bureaucrat& copy);

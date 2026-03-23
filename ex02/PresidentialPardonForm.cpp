@@ -9,7 +9,6 @@ PresidentialPardonForm::PresidentialPardonForm(std ::string target1):AForm("Pres
 }
 PresidentialPardonForm::PresidentialPardonForm(const PresidentialPardonForm &src):AForm(src),target(src.target)
 {
-    *this = src;
 }
 PresidentialPardonForm &PresidentialPardonForm::operator=(const PresidentialPardonForm &src)
 {

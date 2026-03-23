@@ -1,4 +1,5 @@
 #include "Bureaucrat.hpp"
+//see the original what function in the std::exception class to understand why we need to use throw() at the end of the function declaration
 const char *Bureaucrat::GradeTooHighException::what() const throw()
 {
     return "Grade is too high";
